@@ -23,6 +23,7 @@
     - tracer에서 실험해 본 결과 localization이 안되는 것을 확인
       - map.pgm, map.yaml 파일 저장 시 오류로 추정
       - map_server 수정
+  - exp_20240724
 
 
 TODO: 
