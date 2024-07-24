@@ -8,12 +8,22 @@
     - ~8/14 MAP+NAV+MAN / MAP+RL(NAV+MAN)
     - ~9/6 LLM+MAP+NAV+MAN / LLM+MAP+RL(NAV+MAN)
     
-#### 2024-07-17~23
+#### 2024-07-17~19
   - DMAP 패키징
     - ROS2 환경
     - dmap_node 작성
+
+#### 2024-07-22~23
+  - DMAP 패키징
     - map_server, goal_server 작성
     - 저성능 PC에서 사용하기 위해 inference 부분 중 torch로 제작된 부분을 numpy로 변경
+
+#### 2024-07-24
+  - DMAP 패키징
+    - tracer에서 실험해 본 결과 localization이 안되는 것을 확인
+      - map.pgm, map.yaml 파일 저장 시 오류로 추정
+      - map_server 수정
+
 
 TODO: 
   - keyframe selection 적용
