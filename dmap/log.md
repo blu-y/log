@@ -20,11 +20,17 @@
 
 #### 2024-07-24
   - DMAP 패키징
-    - tracer에서 실험해 본 결과 localization이 안되는 것을 확인
-      - map.pgm, map.yaml 파일 저장 시 오류로 추정
+    - ~~tracer에서 실험해 본 결과 localization이 안되는 것을 확인~~(Done)
+      - ~~map.pgm, map.yaml 파일 저장 시 오류로 추정~~(Done)
       - map_server 수정
   - exp_20240724
 
+#### 2024-07-25~26
+  - DMAP 패키징
+    - tracer에서 localization 이슈 해결
+      - nav2 launch를 안하였음
+    - Jetson Orin Nano(Tracer Mini) 실험 결과 torch load없이 사용 가능을 확인
+      - 추후 Raspberry Pi(Turtlebot)에서 실험 예정
 
 TODO: 
   - keyframe selection 적용
