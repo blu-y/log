@@ -32,6 +32,11 @@
     - Jetson Orin Nano(Tracer Mini) 실험 결과 torch load없이 사용 가능을 확인
       - 추후 Raspberry Pi(Turtlebot)에서 실험 예정
 
+#### 2024-07-30
+  - 추가 실험 진행 계획 수립
+    - Reference work과의 성능 비교
+    - Manuscript 수정
+
 TODO: 
   - keyframe selection 적용
     
